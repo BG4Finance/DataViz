@@ -6,6 +6,6 @@ data from different sources through any kind of software, programming language, 
 module available.
 
 ## First Challenge
-###Good Data, Bad Visual
+### Good Data, Bad Visual
 We must spot a bad data visualisation and make a better version out of it
 
