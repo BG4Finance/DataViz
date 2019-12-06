@@ -1,6 +1,6 @@
 # DataViz
 
-In this project "Data Visualizatio Portfolio" asked by teacher Peter Gruber, at Università 
+In this project "Data Visualization Portfolio" asked by teacher Peter Gruber, at Università 
 della Svizzera italiana, we have been asked to gather several visualisation of different 
 data from different sources through any kind of software, programming language, package or 
 module available.
