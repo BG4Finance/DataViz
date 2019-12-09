@@ -26,6 +26,16 @@ ggplot(data12, aes(x=GDPpc, y=consumptionKW, size = GDP)) + geom_point(alpha=0.7
 #Advanced one
 ggplot(data12, aes(x=GDPpc, y=consumptionKW, size=GDP, color=regions, label = regions)) +
   geom_point(alpha=0.5) +
-  scale_size(range = c(1, 40), name="GDP") +
-  geom_text(size=3,hjust=0, vjust=0) 
+  scale_size(range = c(1, 50), name="GDP") +
+  geom_text(size=3,hjust=0, vjust=0) +
+  expand_limits(x = c(0, 5)) +
+  labs(title = "GDP vs. Electric Consumption pro capita") +
+  labs(x = "GDP growth % pro capita", y = "Electric consumption pro capita (KW)") +
+  labs(caption = "(based on data from World Bank Dataset)") +
+  theme(legend.key.size = unit(0.05, "cm"))
+  
 
+
+  
+ 
+ 
