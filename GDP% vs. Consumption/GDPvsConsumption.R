@@ -7,9 +7,9 @@ df <- read_csv("WBData.csv", na = "0")
 
 # Modify the code as below to consider single countries
 # macroGDP <- df[c(seq(218,228,1),45,150,67),]
-macroGDP <- df[seq(218,228,1),]
-macroGDPpc <- df[seq(446,456,1),]
-macroCONS <- df[seq(674,684,1),]
+macroGDP <- df[c(seq(218,228,1),36,189,96,54,27),]
+macroGDPpc <- df[c(seq(446,456,1),264,417,324,282,255),]
+macroCONS <- df[c(seq(674,684,1),492,645,552,510,483),]
 macroCONS$`2012 [YR2012]`[8] <- 200
 regions <- macroGDP$`Country Name`
 
