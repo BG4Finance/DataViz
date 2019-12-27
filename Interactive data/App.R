@@ -36,7 +36,7 @@ ui <- fluidPage(
 
 # Define server logic for random distribution app ----
 server <- function(input, output) {
-  
+  #Dataset layout
   semester <-  data[c(47:54),1]
   grades <- data[1:43,]
   avg <- data[47:54,1:3]
@@ -58,7 +58,7 @@ server <- function(input, output) {
       ylim(6.8,8.2) + labs(x = "Semester", y = "Average Grade")
     return(result)
   }
-  
+  #Evaluating average grade per minor
   for (i in seq(1,43)) {
     if (grades$Major[i] == "Economics"){
       eco <- eco + grades$GradeXECTS[i]
@@ -77,11 +77,13 @@ server <- function(input, output) {
       c_sci <- c_sci + grades$ECTS[i]
     }
   }
+  #Stacking data togheter
   minor_df <- cbind.data.frame(rbind.data.frame("Econimics","Finance","Informatics","Science"),
                                rbind.data.frame(eco/c_eco, fin/c_fin, inf/c_inf, sci/c_sci))
   names(minor_df) <- c("Minor","Mean")
 
   output$plot <- renderPlot({
+  # If user is interested in knowing the historical performance....
     if (input$type == "uni"){
       if (input$course == "bac"){
         start <-1
@@ -96,17 +98,15 @@ server <- function(input, output) {
       # Final Graphical representation of each semester average grade
       graph(entry,start,fine)
     } else {
-      #
+      # If the user is interested in knowing the average performanance
+      # in each of the four minors...
       ggplot(minor_df, aes(y = minor_df$Mean, x=minor_df$Minor)) + 
         geom_col(fill = 'dark blue') +
         labs(x = 'Minor', y = 'Mean')
-      
-      }
-    
-    
+    }
     
   })
-  
+
 }
 
 # Create Shiny app ----
