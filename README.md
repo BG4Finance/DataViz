@@ -18,4 +18,8 @@ Consumption" folder. The Bad and the Good graph have being uploaded there with t
 ### Interactive Visualization, About Myself
 An interactive data visualization about my accademic performance measured each semester. Moreover I splitted the exam and computed each average of 4 minors:
 Economics, subjects related to teorethical aspects of the economy, such as Macro/Micro-economics,Law, Monetary Economics, Business Political and Organizational Economics.
-Finance, here I gathered quantitative and 
+Finance, here I gathered quantitative and applied financial matters.
+Informatics, programming and machine learning classes
+Science, maths and statistics.
+
+I had couple of main issues with this visualisation, in particular I couldn't 
