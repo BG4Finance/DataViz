@@ -14,6 +14,8 @@ We must spot a bad data visualisation and make a better version out of it.
 For my case I choose to fix a bad visualization,you can find it  in the "GDP% vs.
 Consumption" folder. The Bad and the Good graph have being uploaded there with the code I used to create the new graph.
 
+![Image of BadGraph](https://github.com/BG4Finance/DataViz/blob/master/GDP%25%20vs.%20Consumption/BAD%20GRAPH.png?raw=true)
+
 ## Second Challenge
 ### Interactive Visualization, About Myself
 An interactive data visualization about my accademic performance measured each semester. Moreover I splitted the exam and computed each average of 4 minors:
