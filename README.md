@@ -22,4 +22,4 @@ Finance, here I gathered quantitative and applied financial matters.
 Informatics, programming and machine learning classes
 Science, maths and statistics.
 
-I had couple of main issues with this visualisation, in particular I couldn't 
+I had a couple of main issues with this visualisation challenge, in particular I couldn't not scale the bar chart of minor averages and the <ConditionaPanel 
