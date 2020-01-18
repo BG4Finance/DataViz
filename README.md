@@ -20,7 +20,7 @@ Even if the way data have been gathered and reported on the graph would be corre
 So I managed to improve and optimise this graph. First of all I needed data, and was able to collect them from ![World Bank DataBase](https://databank.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG/1ff4a498/Popular-Indicators); I choose to use macro regions plus I picked few countries which I thought reader would be interested in.  I dedicated the Y-axis to pro capita electricity consumption and the X-axis to GDP pro capita growth rate.
 I choose a bubble graph to better emphasise the actual GDP pro capita volume in dollar for each region, to give a sense of measure and to ignite the curiosity of the reader in understanding what the graph is about.
 
-![Image of BadGraph](https://raw.githubusercontent.com/BG4Finance/DataViz/e1707ca010d25baeee7c18caf3ac387972f197df/GDP%25%20vs.%20Consumption/Optimized.pdf?raw=true)
+![Image of BadGraph](blob:null/a9bb8a65-f1f2-4c47-aab6-d1952006ed24)
 
 ## Second Challenge
 ### Interactive visualisation, About Myself
