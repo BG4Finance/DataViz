@@ -42,4 +42,7 @@ conditionalPanel(condition = "input.type == 'uni",
 ```
 
 
-    shiny::runApp()
+''' {r echo = FALSE}
+source("Interactive data/")
+shiny::runApp()
+'''
