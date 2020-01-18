@@ -28,13 +28,16 @@ I choose a bubble graph to better emphasise the actual GDP pro capita volume in 
 ## Second Challenge
 ### Interactive visualisation, About Myself
 An interactive data visualisation about my academic performance measured each semester. Moreover I split the exam in 4 minors and computed each average grade:  
-* Economics, subjects related to teorethical aspects of the economy, such as Macro/Micro-economics,Law, Monetary Economics, Business Political and Organisational Economics.  
-* Finance, here I gathered quantitative and applied financial matters.  
+* Economics, subjects related to teorethical aspects of the economy.   
+* Finance, here I gathered quantitative and applied financial subjects.  
 * Informatics, programming and machine learning classes.  
 * Science, maths and statistics.  
-You can run the app from ![Interactive data folder](https://github.com/BG4Finance/DataViz/).  
-I had a couple of issues with this visualisation challenge, mainly I could not scale the bar chart for a more clear minor comparison and the conditionalPanel command seems to not work p
-as expected (the radio button appears even if the condition is not satisfied).
+
+
+You can run the app from ![Interactive data folder](https://github.com/BG4Finance/DataViz/).  You can opt to visualise my average grade per semester, split the graph into Bachelor and Master grades (4 and 2 semesters respectively), or you can visualise how I performed on average in each minor.
+
+
+I had a couple of issues with this visualisation challenge, mainly I could not scale the bar chart for a more clear minor comparison and the conditionalPanel command seems to not work as expected (the radio button appears even if the condition is not satisfied).
 ```r
 conditionalPanel(condition = "input.type == 'uni",
                  radioButtons("course","University Course",
