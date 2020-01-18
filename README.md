@@ -27,22 +27,16 @@ I choose a bubble graph to better emphasise the actual GDP pro capita volume in 
 
 ## Second Challenge
 ### Interactive visualisation, About Myself
-An interactive data visualisation about my academic performance measured each semester. Moreover I split the exam and computed each average of 4 minors:
-Economics, subjects related to teorethical aspects of the economy, such as Macro/Micro-economics,Law, Monetary Economics, Business Political and Organizational Economics.
+An interactive data visualisation about my academic performance measured each semester. Moreover I split the exam and computed each average of 4 minors:  
+Economics, subjects related to teorethical aspects of the economy, such as Macro/Micro-economics,Law, Monetary Economics, Business Political and Organisational Economics.
 Finance, here I gathered quantitative and applied financial matters.
 Informatics, programming and machine learning classes
 Science, maths and statistics.
-
-I had a couple of main issues with this visualisation challenge, in particular I couldn't not scale the bar chart for a clear minor comparison and
+You can run the app from ![Interactive data folder](https://github.com/BG4Finance/DataViz/).  
+I had a couple of issues with this visualisation challenge, mainly I could not scale the bar chart for a more clear minor comparison and the conditionalPanel command seems to not work properly
 ```r
 conditionalPanel(condition = "input.type == 'uni",
                  radioButtons("course","University Course",
                               c("All"="all", "Bachelor"="bac", "Master"="msc"),
                               selected = "all"))
-```
-
-
-```{r echo = FALSE}
-source("Interactive data/")
-shiny::runApp()
 ```
