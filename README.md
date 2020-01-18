@@ -33,10 +33,32 @@ Finance, here I gathered quantitative and applied financial matters.
 Informatics, programming and machine learning classes
 Science, maths and statistics.
 You can run the app from ![Interactive data folder](https://github.com/BG4Finance/DataViz/).  
-I had a couple of issues with this visualisation challenge, mainly I could not scale the bar chart for a more clear minor comparison and the conditionalPanel command seems to not work properly
+I had a couple of issues with this visualisation challenge, mainly I could not scale the bar chart for a more clear minor comparison and the conditionalPanel command seems to not work p
+as expected (the radio button appears even if the condition is not satisfied).
 ```r
 conditionalPanel(condition = "input.type == 'uni",
                  radioButtons("course","University Course",
                               c("All"="all", "Bachelor"="bac", "Master"="msc"),
                               selected = "all"))
 ```
+
+## Third Challenge
+> Create a visualization that is none of the following:
+> map, bar chart, scatter plot, pie chart, line chart,
+> box plot, density plot, histogram
+
+
+
+
+
+
+
+
+
+
+
+
+
+###### Rference
+www.python-graph-gallery.com
+www.github.com
