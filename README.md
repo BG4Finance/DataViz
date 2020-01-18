@@ -5,7 +5,7 @@ della Svizzera italiana, we have been asked to gather several visualisation of d
 data from different sources through any kind of software, programming language, package or
 module available.
 
-### Quickest way to test code?
+#### Quickest way to test code?
 Clone/Download this repository on your computer so you will be provided of all the code and source files needed to smoothly test it! In particular this will ease the deployment of the interactive Shiny App.
 
 ## First Challenge
@@ -20,7 +20,7 @@ I think that this representation is absolutely bananas, moreover “y” and “
 Even if the way data have been gathered and reported on the graph would be correct, there are too many lines, names and colour to get a glimpse of understanding. For almost any country is impossible to understand to which colour it belongs.  
 
 
-So I managed to improve and optimise this graph. First of all I needed data, and was able to collect them from ![World Bank DataBase](https://databank.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG/1ff4a498/Popular-Indicators); I choose to use macro regions plus I picked few countries which I thought reader would be interested in.  I dedicated the Y-axis to pro capita electricity consumption and the X-axis to GDP pro capita growth rate.  
+I managed to improve and optimise this graph. First of all I needed data, and was able to collect them from ![World Bank DataBase](https://databank.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG/1ff4a498/Popular-Indicators); I choose to use macro regions plus I picked few countries which I thought reader would be interested in.  I dedicated the Y-axis to pro capita electricity consumption and the X-axis to GDP pro capita growth rate.  
 I choose a bubble graph to better emphasise the actual GDP pro capita volume in dollar for each region both to give a sense of measure and to ignite the curiosity of the reader.
 
 ![Image of BadGraph](https://github.com/BG4Finance/DataViz/blob/master/GDP%25%20vs.%20Consumption/FinalPlot.png?raw=true)
@@ -40,3 +40,6 @@ conditionalPanel(condition = "input.type == 'uni",
                               c("All"="all", "Bachelor"="bac", "Master"="msc"),
                               selected = "all"))
 ```
+
+
+shiny::runApp()
