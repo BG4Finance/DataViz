@@ -42,4 +42,4 @@ conditionalPanel(condition = "input.type == 'uni",
 ```
 
 
-shiny::runApp()
+    shiny::runApp()
