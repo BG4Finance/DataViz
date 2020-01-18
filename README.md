@@ -2,7 +2,8 @@
 
 In this project "Data Visualisation Portfolio" assigned by teacher Peter Gruber, at Università
 della Svizzera italiana, we have been asked to gather several visualisation of different
-data from different sources through any kind of software, programming language, package or module available. You can find the complete assignment in 
+data from different sources through any kind of software, programming language, package or module available. You can find the complete assignment in ![DataViz_quest.pdf](https://github.com/BG4Finance/DataViz/blob/master/dataviz_quest.pdf).  
+I decided to divide the assignment in 4 challenges and i reported what I did for each one.
 
 #### Quickest way to test code?
 Clone/Download this repository on your computer so you will be provided of all the code and source files needed to smoothly test it! In particular this will ease the deployment of the interactive Shiny App.
@@ -26,11 +27,11 @@ I choose a bubble graph to better emphasise the actual GDP pro capita volume in 
 
 ## Second Challenge
 ### Interactive visualisation, About Myself
-An interactive data visualisation about my academic performance measured each semester. Moreover I split the exam and computed each average of 4 minors:  
-Economics, subjects related to teorethical aspects of the economy, such as Macro/Micro-economics,Law, Monetary Economics, Business Political and Organisational Economics.
-Finance, here I gathered quantitative and applied financial matters.
-Informatics, programming and machine learning classes
-Science, maths and statistics.
+An interactive data visualisation about my academic performance measured each semester. Moreover I split the exam in 4 minors and computed each average grade:  
+* Economics, subjects related to teorethical aspects of the economy, such as Macro/Micro-economics,Law, Monetary Economics, Business Political and Organisational Economics.  
+* Finance, here I gathered quantitative and applied financial matters.  
+* Informatics, programming and machine learning classes.  
+* Science, maths and statistics.  
 You can run the app from ![Interactive data folder](https://github.com/BG4Finance/DataViz/).  
 I had a couple of issues with this visualisation challenge, mainly I could not scale the bar chart for a more clear minor comparison and the conditionalPanel command seems to not work p
 as expected (the radio button appears even if the condition is not satisfied).
