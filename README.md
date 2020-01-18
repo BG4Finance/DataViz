@@ -2,8 +2,7 @@
 
 In this project "Data Visualisation Portfolio" assigned by teacher Peter Gruber, at Università
 della Svizzera italiana, we have been asked to gather several visualisation of different
-data from different sources through any kind of software, programming language, package or
-module available.
+data from different sources through any kind of software, programming language, package or module available. You can find the complete assignment in 
 
 #### Quickest way to test code?
 Clone/Download this repository on your computer so you will be provided of all the code and source files needed to smoothly test it! In particular this will ease the deployment of the interactive Shiny App.
@@ -59,6 +58,6 @@ conditionalPanel(condition = "input.type == 'uni",
 
 
 
-###### Rference
-www.python-graph-gallery.com
+###### Reference
+www.python-graph-gallery.com  
 www.github.com
