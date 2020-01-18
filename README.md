@@ -22,4 +22,10 @@ Finance, here I gathered quantitative and applied financial matters.
 Informatics, programming and machine learning classes
 Science, maths and statistics.
 
-I had a couple of main issues with this visualisation challenge, in particular I couldn't not scale the bar chart of minor averages and the <ConditionaPanel 
+I had a couple of main issues with this visualisation challenge, in particular I couldn't not scale the bar chart for a clear minor comparison and
+```r
+conditionalPanel(condition = "input.type == 'uni",
+                 radioButtons("course","University Course",
+                              c("All"="all", "Bachelor"="bac", "Master"="msc"),
+                              selected = "all"))
+```
