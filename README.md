@@ -50,7 +50,7 @@ conditionalPanel(condition = "input.type == 'uni",
 > map, bar chart, scatter plot, pie chart, line chart,
 > box plot, density plot, histogram
 -----
-Here I want to take the most googled words in 2019 and represent them through a worldcloud representation.
+Here I want to take the most googled words in 2019 and represent them through a wordcloud representation.
 
 
 
