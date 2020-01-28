@@ -51,7 +51,7 @@ conditionalPanel(condition = "input.type == 'uni",
 > box plot, density plot, histogram
 
 Here I want to take the most googled words in 2019 and represent them through a wordcloud representation.
-![Image of BadGraph](https://drive.google.com/file/d/1Plp8gdxaGBDcfTAMBAKnUyZcNbheTerb/view?usp=sharing)
+![Image of BadGraph](https://raw.githubusercontent.com/BG4Finance/DataViz/master/WordCloud/Wordcloud.png)
 
 
 
