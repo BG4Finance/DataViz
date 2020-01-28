@@ -49,8 +49,10 @@ conditionalPanel(condition = "input.type == 'uni",
 > Create a visualization that is none of the following:
 > map, bar chart, scatter plot, pie chart, line chart,
 > box plot, density plot, histogram
------
+
 Here I want to take the most googled words in 2019 and represent them through a wordcloud representation.
+![Image of BadGraph](https://drive.google.com/drive/folders/1NLB838hWjjXC31ZSu_QAEM2HIlKc27Zg)
+
 
 
 
