@@ -46,7 +46,7 @@ conditionalPanel(condition = "input.type == 'uni",
 ```
 
 ## Third Challenge
-> Create a visualization that is none of the following:
+> Create a visualisation that is none of the following:
 > map, bar chart, scatter plot, pie chart, line chart,
 > box plot, density plot, histogram
 
