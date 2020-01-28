@@ -14,3 +14,7 @@ for i in range(1,df.shape[0]):
   text += df[i]
 
 text = str(text)
+wordcloud = WordCloud().generate(text)
+plt.imshow(wordcloud, interpolation='bilinear')
+plt.axis("off")
+plt.show()
