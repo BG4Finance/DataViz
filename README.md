@@ -7,6 +7,7 @@ I decided to divide the assignment in 4 challenges and i reported what I did for
 
 #### Quickest way to test code?
 Clone/Download this repository on your computer so you will be provided of all the code and source files needed to smoothly test it! In particular this will ease the deployment of the interactive Shiny App.
+----
 
 ## First Challenge
 ### Good Data, Bad Visual
@@ -24,6 +25,7 @@ I managed to improve and optimise this graph. First of all I needed data, and wa
 I choose a bubble graph to better emphasise the actual GDP pro capita volume in dollar for each region both to give a sense of measure and to ignite the curiosity of the reader.
 
 ![Image of BadGraph](https://github.com/BG4Finance/DataViz/blob/master/GDP%25%20vs.%20Consumption/FinalPlot.png?raw=true)
+----
 
 ## Second Challenge
 ### Interactive visualisation, About Myself
@@ -44,6 +46,7 @@ conditionalPanel(condition = "input.type == 'uni",
                               c("All"="all", "Bachelor"="bac", "Master"="msc"),
                               selected = "all"))
 ```
+----
 
 ## Third Challenge
 > Create a visualisation that is none of the following:
@@ -52,6 +55,13 @@ conditionalPanel(condition = "input.type == 'uni",
 
 Here I want to take the most googled words in 2019 and represent them through a wordcloud representation.
 ![Image of BadGraph](https://raw.githubusercontent.com/BG4Finance/DataViz/master/WordCloud/Wordcloud.png)
+----
+
+## Fourth Challenge
+### Map Visualisation + Data Merging
+
+
+
 
 
 
