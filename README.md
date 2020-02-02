@@ -23,7 +23,7 @@ I think that this representation is absolutely bananas, moreover “y” and “
 Even if the way data have been gathered and reported on the graph would be correct, there are too many lines, names and colour to get a glimpse of understanding. For almost any country is impossible to understand to which colour it belongs.  
 
 
-I managed to improve and optimise this graph. First of all I needed data, and was able to collect them from ![World Bank DataBase](https://databank.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG/1ff4a498/Popular-Indicators); I choose to use macro regions plus I picked few countries which I thought reader would be interested in.  I dedicated the Y-axis to pro capita electricity consumption and the X-axis to GDP pro capita growth rate.  
+I managed to improve and optimise this graph. First of all I needed data, and was able to collect them from [World Bank DataBase](https://databank.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG/1ff4a498/Popular-Indicators); I choose to use macro regions plus I picked few countries which I thought reader would be interested in.  I dedicated the Y-axis to pro capita electricity consumption and the X-axis to GDP pro capita growth rate.  
 I choose a bubble graph to better emphasise the actual GDP pro capita volume in dollar for each region both to give a sense of measure and to ignite the curiosity of the reader.
 
 ![Image of GoodGraph](https://github.com/BG4Finance/DataViz/blob/master/GDP%25%20vs.%20Consumption/FinalPlot.png?raw=true)
@@ -69,7 +69,7 @@ Here I want to take the most googled words in 2019 and represent them through a 
 I used Folium module on Python to create a world map in HTML showcasing GDP per capita in 2014. I always relied on WorldBank data.
 
 
-![World Map](https://bg4finance.github.io/DataViz/World_GDP.html)
+[World Map](https://bg4finance.github.io/DataViz/World_GDP.html)
 
 
 
