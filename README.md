@@ -5,7 +5,7 @@ della Svizzera italiana, we have been asked to gather several visualisation of d
 data from different sources through any kind of software, programming language, package or module available. You can find the complete assignment in ![DataViz_quest.pdf](https://github.com/BG4Finance/DataViz/blob/master/dataviz_quest.pdf).  
 I decided to divide the assignment in 4 challenges and i reported what I did for each one.
 
-#### Quickest way to test code?  
+#### Quickest way to test code?
 Clone/Download this repository on your computer so you will be provided of all the code and source files needed to smoothly test it! In particular this will ease the deployment of the interactive Shiny App.
 
 
