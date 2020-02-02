@@ -32,10 +32,10 @@ I choose a bubble graph to better emphasise the actual GDP pro capita volume in 
 ## Second Challenge
 ### Interactive visualisation, About Myself
 An interactive data visualisation about my academic performance measured each semester. Moreover I split the exam in 4 minors and computed each average grade:  
-* Economics, subjects related to teorethical aspects of the economy.   
-* Finance, here I gathered quantitative and applied financial subjects.  
-* Informatics, programming and machine learning classes.  
-* Science, maths and statistics.  
+* Economics; subjects related to teorethical aspects of the economy.   
+* Finance; here I gathered quantitative and applied financial subjects.  
+* Informatics; programming and machine learning classes.  
+* Science; maths and statistics.  
 
 
 You can run the app from ![Interactive data folder](https://github.com/BG4Finance/DataViz/).  You can opt to visualise my average grade per semester, split the graph into Bachelor and Master grades (4 and 2 semesters respectively), or you can visualise how I performed on average in each minor.
@@ -78,9 +78,9 @@ I used Folium module on Python to create a world map in HTML showcasing GDP per 
 ###### Reference
 https://www.python-graph-gallery.com  
 https://guides.github.com/features/mastering-markdown  
-https://python-visualization.github.io/folium/  
 https://amueller.github.io/word_cloud/  
+https://python-visualization.github.io/folium/  
 
 
-Data sources  
+###### Data sources  
 https://www.worldbank.org/
