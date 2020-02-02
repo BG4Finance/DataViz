@@ -69,19 +69,7 @@ Here I want to take the most googled words in 2019 and represent them through a 
 I used Folium module on Python to create a world map in HTML showcasing GDP per capita in 2014. I always relied on WorldBank data.
 
 
-![World Map](https://github.com/BG4Finance/DataViz/blob/master/MapViz/%23folium_World_GDP.html)
-
-
-
-
-
-
-
-
-
-
-
-
+![World Map](https://bg4finance.github.io/DataViz/World_GDP.html)
 
 
 
