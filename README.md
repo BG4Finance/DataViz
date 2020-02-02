@@ -7,6 +7,7 @@ I decided to divide the assignment in 4 challenges and i reported what I did for
 
 #### Quickest way to test code?
 
+
 Clone/Download this repository on your computer so you will be provided of all the code and source files needed to smoothly test it! In particular this will ease the deployment of the interactive Shiny App.
 ----
 
