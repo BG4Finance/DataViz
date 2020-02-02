@@ -75,9 +75,9 @@ I used Folium module on Python to create a world map in HTML showcasing GDP per 
 
 
 ###### Reference
-https://www.python-graph-gallery.com
-https://guides.github.com/features/mastering-markdown
-https://python-visualization.github.io/folium/
+https://www.python-graph-gallery.com  
+https://guides.github.com/features/mastering-markdown  
+https://python-visualization.github.io/folium/  
 
 
 
