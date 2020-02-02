@@ -66,21 +66,21 @@ Here I want to take the most googled words in 2019 and represent them through a 
 
 ## Fourth Challenge
 ### Map Visualisation + Data Merging
-I used Folium module on Python to create a world map in HTML showcasing GDP per capita in 2014. I always relied on WorldBank data.
+I used Folium module on Python to create a world map in HTML showcasing GDP per capita in 2014. I always relied on WorldBank data. The code can be found in [MapViz fodler](https://github.com/BG4Finance/DataViz/tree/master/MapViz) and the rendered HTML resulting as output of the code is at the link below.
 
 
 [World Map](https://bg4finance.github.io/DataViz/World_GDP.html)
 
 
+---
 
 
 ###### Reference
 https://www.python-graph-gallery.com  
 https://guides.github.com/features/mastering-markdown  
 https://python-visualization.github.io/folium/  
+https://amueller.github.io/word_cloud/  
 
 
-
-
-Data sources
+Data sources  
 https://www.worldbank.org/
