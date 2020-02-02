@@ -1,8 +1,8 @@
 import pandas as pd
 import folium
 
-# Load the shape of the zone (US states)
-# Find the original file here: https://github.com/python-visualization/folium/tree/master/examples/data
+
+
 # You have to download this file and set the directory where you saved it
 state_geo = str('/Users/Barbarossa/Documents/GitHub/DataViz/MapViz/world-countries.json')
 
@@ -10,7 +10,7 @@ state_geo = str('/Users/Barbarossa/Documents/GitHub/DataViz/MapViz/world-countri
 # Find the original file here: https://github.com/python-visualization/folium/tree/master/examples/data
 state_GDP = str('/Users/Barbarossa/Documents/GitHub/DataViz/MapViz/GDPPC.csv')
 state_data = pd.read_csv(state_GDP)
-state_data = state_data.loc[:, ['Country_Code', 'YR2014']]
+state_data = state_data.loc[:,['Country_Code', 'YR2014']]
 
 # Initialize the map:
 m = folium.Map(location = [0,0], zoom_start = 1)
